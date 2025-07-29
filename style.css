@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f4f6f8;
-  color: #222;
+  background-color: #f8f9f9;
+  color: #111;
 }
 
 .site-header {
@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
+  padding: 12px 30px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
@@ -22,18 +22,21 @@ body {
 }
 
 .logo {
-  height: 40px;
-  margin-right: 10px;
+  height: 42px;
+  margin-right: 12px;
 }
 
 .site-name {
-  font-size: 1.5em;
+  font-family: 'Courier New', monospace;
+  font-size: 1.8em;
   font-weight: bold;
-  color: #00ffe1;
+  letter-spacing: 1px;
+  color: #00ff99;
+  text-transform: uppercase;
 }
 
 .nav-bar a {
-  margin: 0 12px;
+  margin: 0 14px;
   text-decoration: none;
   color: #00ffe1;
   font-weight: 500;
