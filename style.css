@@ -73,3 +73,52 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Style pour les cartes projets */
+.projects {
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-top: 2em;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border-left: 5px solid #00ffcc;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.project-card h2 {
+    margin-top: 0;
+    color: #003333;
+}
+
+/* Style pour le glossaire */
+.glossaire {
+    margin-top: 2em;
+}
+
+.glossaire-item {
+    background-color: #fff;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-left: 5px solid #00ffcc;
+    border-radius: 6px;
+    transition: transform 0.2s;
+}
+
+.glossaire-item:hover {
+    transform: scale(1.02);
+}
+
+.glossaire-item h2 {
+    margin-top: 0;
+    color: #003333;
+}
